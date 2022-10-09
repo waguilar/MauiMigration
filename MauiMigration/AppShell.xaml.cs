@@ -2,11 +2,12 @@
 using MauiMigration.Views;
 using System;
 using System.Collections.Generic;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace MauiMigration
 {
-    public partial class AppShell : Xamarin.Forms.Shell
+    public partial class AppShell
     {
         public AppShell()
         {
