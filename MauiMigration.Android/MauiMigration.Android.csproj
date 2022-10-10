@@ -7,6 +7,10 @@
   <PropertyGroup>
     <TargetFramework>net6.0-android</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MauiMigration\MauiMigration.csproj" />
   </ItemGroup>

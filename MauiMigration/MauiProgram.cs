@@ -1,4 +1,5 @@
-﻿
+﻿using Microsoft.Maui.Controls.Compatibility.Hosting;
+
 namespace MauiMigration;
 
 public static class MauiProgram
@@ -7,7 +8,8 @@ public static class MauiProgram
 	{
 		var builder = MauiApp.CreateBuilder();
 		builder
-			.UseMauiApp<App>();
+			.UseMauiApp<App>()
+			.UseMauiCompatibility();
 
 		return builder.Build();
 	}
